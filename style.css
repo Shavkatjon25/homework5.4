@@ -1,0 +1,132 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continer{
+    width: 400px;
+    background-color: aqua;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.continer_hona_amal{
+    display: flex;
+    justify-content: space-between;
+}
+.continer_amal{
+    display: flex;
+    flex-direction: column;
+   padding: 10px;
+   gap: 10px;
+}
+.continer_hona{
+    display: flex;
+    flex-direction: column;
+   padding: 10px;
+   gap: 10px;
+}
+.continer_hona_123 h2{
+    width: 30px;
+    height: 30px;
+    background-color: cornflowerblue;
+    text-align: center;
+    border-radius: 8px;
+}
+.continer_var{
+display: grid;
+width: 100%;
+height: 240px;
+padding: 10px;
+gap: 10px;
+grid-template-columns: 1fr 1fr;
+grid-template-rows:  1fr 1fr;
+text-align: center;
+}
+.continer_var h1{
+    height: 100px;
+    background-color: blue;
+    font-size: 80px;
+    color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 1px 1px  red;
+}
+.continer_var h1:hover{
+    background-color: rgb(41, 41, 228);
+    box-shadow: none;
+}
+.continer_daraja{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.continer_daraja h2{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(76, 43, 226);
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+.continer_bosh{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.continer_bosh h2{
+    width: 120px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+.continer_ozgarmas{
+    padding: 10px;
+    text-align: center;
+}
+.continer_amal_alohida{
+    display: flex;
+    gap: 10px;
+}
+.continer_amal_alohida h2{
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.continer_amal_alohida h2:hover{
+    background-color: rgb(203, 34, 34);
+    cursor: pointer;
+    color: aqua;
+}
+.continer_hona_123{
+    display: flex;
+    gap: 5px;
+}
+.continer_hona_123 h2:hover{
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+}
+.continer_hisob{
+    display: flex;
+}
+.continer_hisob_vaqt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.continer_hisob p{
+    font-size: 30px;
+}
