@@ -207,4 +207,8 @@ if(tex.textContent==10){
     inson.textContent=0;
 }
 },10)
-console.log(alert)
+let res=document.querySelector(".restart");
+res.addEventListener("click", function(){
+    tex.textContent=0;
+    inson.textContent=0;
+})
